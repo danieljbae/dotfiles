@@ -1,0 +1,70 @@
+{
+    //   Python
+    "python.pythonPath": "C:\\Users\\danie\\Anaconda3",
+    "code-runner.executorMap": {
+      "python": "$pythonPath -u $fullFileName"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showExecutionMessage": false,
+    "python.languageServer": "Microsoft",
+    "python.terminal.executeInFileDir": true,
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Path": "C:\\Users\\danie\\Anaconda3\\Scripts\\autopep8",
+    "editor.formatOnSave": true,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "python.formatting.autopep8Args": ["--max-line-length=120"],
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.pycodestyleArgs": ["--max-line-length=120"],
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pylintEnabled": false,
+  
+    //   C++ and Java
+    "C_Cpp.updateChannel": "Insiders",
+    "files.associations": {
+      "*.java": "java"
+    },
+    "java.home": "C:\\Users\\danie\\AppData\\Local\\Programs\\AdoptOpenJDK",
+    "java.help.firstView": "gettingStarted",
+  
+    // Default Terminal:
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe", // Git Bash
+    // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe", //cmd
+    // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", // PowerShell
+    // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe", // Bash on Ubuntu (on Windows)
+  
+    // IDE General
+    "window.zoomLevel": -1,
+    "workbench.colorTheme": "Predawn",
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.editor": "json",
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.explorerKind": "external",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "kite.showWelcomeNotificationOnStartup": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.python"
+    },
+  
+    // Coreys Settings: extra
+    "code-runner.ignoreSelection": true,
+    "code-runner.saveFileBeforeRun": true,
+    "[plaintext]": {
+      "editor.quickSuggestions": false
+    },
+    "editor.quickSuggestionsDelay": 100,
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": false,
+    "editor.minimap.enabled": false
+  }
+  
