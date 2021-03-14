@@ -1,3 +1,0 @@
-testing on ssh
-
-testing via https
